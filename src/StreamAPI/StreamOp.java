@@ -1,4 +1,4 @@
-
+package StreamAPI;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -26,7 +26,7 @@ public class StreamOp {
         System.out.println(empname);
 
         //filter()
-        //Employee Name,Age>28
+        //StreamAPI.Employee Name,Age>28
 
         List<String>empage= employees.stream()
                 .filter(emp->emp.getAge()>28)

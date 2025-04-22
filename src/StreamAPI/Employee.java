@@ -1,3 +1,5 @@
+package StreamAPI;
+
 public class Employee {
     private int id;
     private String name;
@@ -21,7 +23,7 @@ public class Employee {
 
     @Override
     public String toString() {
-        return "Employee{" +
+        return "StreamAPI.Employee{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", city='" + city + '\'' +
